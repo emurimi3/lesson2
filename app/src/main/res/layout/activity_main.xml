@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/myTitle"
+        android:text="@string/myTitle"
+        android:fontFamily="@font/monsterunleashed"
+        android:textSize="40dp"
+        android:layout_height="100dp" />
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:hint="@string/hint"
+        android:layout_gravity="center"
+        android:layout_height="100dp" />
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:background="@drawable/myshapes"
+        android:onClick="begins"
+        android:text="@string/myButton"
+        android:textColor="@color/colorText" />
+
+
+
+
+
+
+</LinearLayout>
